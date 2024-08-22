@@ -1,4 +1,4 @@
-name: Build and publish wiki
+name: Wiki build
 
 on:
   push:
