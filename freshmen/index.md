@@ -1,7 +1,8 @@
-# Інфа для ньюфагів:
+# Інфа для ньюфагів
 
 ::: {toctree}
-:hidden:
+:includehidden:
+:titlesonly:
 :glob:
 *
 :::
