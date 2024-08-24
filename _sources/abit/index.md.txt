@@ -1,14 +1,8 @@
-# Гайди для абітури:
+# Гайди по спеціальностям
 
 ::: {toctree}
+:includehidden:
+:titlesonly:
 :glob:
 *
 :::
-
-## c
-
-ddd
-
-## d
-
-fff

@@ -1,6 +1,8 @@
-# Статєйкі про студраду:
+# Статєйкі про студраду
 
 ::: {toctree}
+:includehidden:
+:titlesonly:
 :glob:
 *
 :::
