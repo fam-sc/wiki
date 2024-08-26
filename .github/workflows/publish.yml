@@ -23,8 +23,11 @@ jobs:
       - name: Build website
         run: make html
 
+      - name: Create /wiki folder
+        run: mkdir ./_build/public && cp -r ./_build/html ./_build/public/wiki
+
       - name: Deploy website
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_build/html
+          publish_dir: ./_build/public
