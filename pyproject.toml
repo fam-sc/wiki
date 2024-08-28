@@ -1,0 +1,19 @@
+[tool.poetry]
+description = "FAM Student Council Wiki sources"
+license = "CC0-1.0"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Sphinx = "^8.0.2"
+myst-parser = "^4.0.0"
+sphinx_design = "^0.6.1"
+pydata-sphinx-theme = "^0.15.4"
+
+[tool.pipx-install]
+poetry = "==1.8.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

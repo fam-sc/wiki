@@ -17,11 +17,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install python tools
+        uses: BrandonLWhite/pipx-install-action@v0.1.1
+
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: poetry install
 
       - name: Build website
-        run: make html
+        run: poetry run make html
 
       - name: Create /wiki folder
         run: mkdir ./_build/public && cp -r ./_build/html ./_build/public/wiki
