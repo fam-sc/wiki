@@ -12,7 +12,7 @@ html_theme.sidebar_secondary.remove: true
 
 ::::{grid-item}
 :::{card}
-**Абітурієнтам**
+**Для тих, хто вступає**
 ^^^
 ```{toctree}
 :includehidden:
@@ -25,7 +25,7 @@ abit/index
 
 ::::{grid-item}
 :::{card}
-**Первашам**
+**Для тих, хто вже вчиться**
 ^^^
 ```{toctree}
 :includehidden:

@@ -1,0 +1,17 @@
+.sd-card[class*="card-1"] .sd-card-header.docutils {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.card-121-red .sd-card-header.docutils {
+    background-color: #812534;
+}
+
+.card-123-green .sd-card-header.docutils {
+    background-color: #047E65;
+}
+
+.card-113-blue .sd-card-header.docutils {
+    background-color: #04597E;
+}

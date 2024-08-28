@@ -23,7 +23,7 @@ extensions = [
 myst_enable_extensions = ["colon_fence"]
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'README.md']
 
 language = 'uk_UA'
 
@@ -45,3 +45,7 @@ html_theme_options = {
         }
     ],
 }
+
+html_css_files = [
+    'styles.css',
+]
