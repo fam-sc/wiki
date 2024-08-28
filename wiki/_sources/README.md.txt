@@ -29,12 +29,16 @@ This section will cover the basics of editing using the tools we use here. It is
 ### Working with this repo
 
 Clone your forked repository as you usually would. Make sure you have the following, aside from Git, installed on your machine:
-* Python 3 (idk which version, but I use `v3.9.13` and it works)
+* Python 3.10+ (idk which version, but I use `v3.13` and it works)
+* [Poetry package manager](https://python-poetry.org/docs/)
 * Your favourite text editor (I use Kate)
 * For OS X and Linux: make utility
 
 After cloning the repo, install dependencies via pip:
-`pip3 install -r requirements.txt`
+`poetry install`
+
+Activate python poetry virtual environment:
+`poetry shell`
 
 And now you can go ahead and work on articles, yay. To build the wiki execute this:
 `make html`
