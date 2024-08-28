@@ -1,0 +1,35 @@
+.sd-card[class*="card-1"] .sd-card-header.docutils {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.card-121-red .sd-card-header.docutils {
+    background-color: #812534;
+}
+
+.card-123-green .sd-card-header.docutils {
+    background-color: #047E65;
+}
+
+.card-113-blue .sd-card-header.docutils {
+    background-color: #04597E;
+}
+
+.footer-content-items {
+    border-top: 1px solid var(--pst-color-border);
+}
+
+#fwikiCommentsContainer {
+    padding: 16px;
+}
+
+#fwikiCommentsContainer > h3 {
+    margin-top: 0;
+}
+
+@media (min-width: 1200px) {
+    #fwikiCommentsContainer {
+        padding-left: calc(16px + 2rem);
+    }
+}
