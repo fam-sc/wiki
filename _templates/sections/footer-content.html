@@ -1,0 +1,9 @@
+<div class="footer-content-items footer-content__inner">
+{%- if (meta is not defined) or ('html_theme.comments.disable' not in meta) %}
+    <div id="fwikiCommentsContainer">
+        <h3>Коментарі</h3>
+        <script defer src="https://commento.fam.vg/js/commento.js"></script>
+        <div id="commento"></div>
+    </div>
+{%- endif %}
+</div>

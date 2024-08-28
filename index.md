@@ -1,5 +1,6 @@
 ---
 html_theme.sidebar_secondary.remove: true
+html_theme.comments.disable: true
 ---
 
 # Вікі СР ФПМ
